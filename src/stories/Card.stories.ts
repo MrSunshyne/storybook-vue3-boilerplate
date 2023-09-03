@@ -1,9 +1,11 @@
 // CSF 3
 import type { Meta, StoryObj } from '@storybook/vue3';
 
-import Card from '../components/Card.vue';
+import Card from '@components/Card.vue';
 
-const meta: Meta<typeof Card> = { component: Card };
+const meta: Meta<typeof Card> = {
+    component: Card,
+};
 
 export default meta;
 type Story = StoryObj<typeof Card>;
