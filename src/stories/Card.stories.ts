@@ -1,12 +1,12 @@
 // CSF 3
 import type { Meta, StoryObj } from '@storybook/vue3';
 
-import PatientCard from '../components/PatientCard.vue';
+import Card from '../components/Card.vue';
 
-const meta: Meta<typeof PatientCard> = { component: PatientCard };
+const meta: Meta<typeof Card> = { component: Card };
 
 export default meta;
-type Story = StoryObj<typeof PatientCard>;
+type Story = StoryObj<typeof Card>;
 
 export const Primary: Story = { args: { description: 'Primary' } };
 export const Secondary: Story = { args: { description: 'Secondary' } };
